@@ -1,0 +1,98 @@
+   *{
+    padding:0px;
+    margin:0px;
+   }
+   .work{ margin-left:100px;
+    width:800px;
+    height:1100px;
+    box-shadow:5px 5px 5px 5px rgb(212, 205, 205)
+   }
+   nav{
+    padding-top:10px;
+    display:flex;
+    justify-content:flex-end;
+    padding-right:15px;
+    gap:20px;
+    
+}
+nav span{
+  display:none;
+}
+a{
+text-decoration:none;
+}
+
+  .dashboard,.dashboard2,.dashboard3{ 
+    margin-top:15px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-bottom:15px;
+    width:800px;
+    height:180px;
+    display:flex;
+
+  }
+ .doc{
+  background-color:black;
+  color:white; 
+  width:20px;
+  border-radius:3px;
+   margin-right:25px;
+ }
+   .dash{
+    width:246px;
+    height:180px;
+    border-radius:1px;
+   }
+   .dashcontent{
+    
+    width:500px;
+    height:180px;
+    margin-left:25px;
+   }
+   .bottom{
+    display:flex;
+    justify-content:center;
+
+   }
+   .icon { margin-top:50px;
+    width:30px;
+    height:30px;
+    margin-right:15px;
+   }
+   .copy{margin-top:0px;
+    text-align:center;
+   }
+   @media screen and (max-width:500px){
+    .work{
+        height:2500px;
+        width:300px;
+    }
+    nav a{
+        display:none;
+    }
+    .dashboard,.dashboard2,.dashboard3{
+        width:200px;
+        height:500px;
+    display:flex;
+    flex-direction:column;
+
+}
+   
+    .image{
+        width:200px;
+        height:200px;
+    }
+    img{
+        width:150px;
+        width:150px;
+    }
+    .dashcontent{
+        width:150px;
+        height:300px;
+    }
+    nav span{
+    display:inline-block;
+   }
+   }
+   

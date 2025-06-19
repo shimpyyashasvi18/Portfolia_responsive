@@ -1,0 +1,58 @@
+.blog{
+    border:5px solid white(215, 203, 203);
+    box-shadow:10px 10px 10px 10px rgb(220, 207, 207);
+    width:800px;
+    height:1200px;
+    margin-left:100px;
+}
+.menu{
+    display:none;
+}
+.navbar{
+    height:40px;
+    width:800px;
+    position:absolute;
+    top:5px;
+    display:flex;
+    justify-content:flex-end;
+}
+a{list-style: none;
+    text-decoration:none;
+    margin-right:15px; 
+    font-size:25px; 
+}
+h1{padding-top:50px;
+    text-align:center;
+}
+.content{
+    height:800px;
+    width:500px;
+    margin-right:100px;
+    margin-left:100px;
+    margin-top:0px;
+}
+.UI{ height:160px;
+    width:500px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:45px;
+}
+.footer{
+    margin-top:15px;
+    height:20px;
+    width:800px;
+    display:flex;
+    justify-content:center;
+}
+span{
+    margin-right:15px;
+}
+.copy{margin-top:0px;
+    height:5px;
+    width:800px;
+    justify-content:center;
+    text-align:center;
+    
+   }
+
+
