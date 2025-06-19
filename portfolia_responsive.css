@@ -1,0 +1,50 @@
+@media screen and (max-width:500px){
+    .container{
+        padding:15px;
+        margin:25px;
+        margin-right:10px;
+        height:2000px;
+        width:400px;
+    }  
+   nav a{
+    display:none;
+   }
+   nav span{
+    display:inline-block;
+   }
+   .intro{
+    width:400px;
+    height:500px;
+    display:flex;
+    flex-direction:column-reverse;
+   }
+ 
+   .post{
+    height:700px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+   }
+   .design,.pixel{
+    width:280px;
+    height:250px;
+    margin-left:40px;
+    margin-right:70px;
+   }
+   .content{height:600px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+   }
+   .dashboard{
+    height:400px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+   }
+   .dashboard2,.dashboard3{
+    display:none;
+   }
+} 
+    

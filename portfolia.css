@@ -1,0 +1,144 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+.container{
+  overflow:hidden;
+  margin-top:30px;
+  margin-bottom:30px;
+   margin-left:35vw;
+    height:1700px;
+    width:900px;
+    border:1px solid;
+    box-shadow:5px 5px 5px 5px rgb(121, 116, 116)
+
+
+}
+nav{
+  padding-top:10px;
+    display:flex;
+    justify-content:flex-end;
+    padding-right:15px;
+}
+nav span{
+  display:none;
+}
+a{
+  padding-right:15px;
+  font-family:'Arial Narrow Bold', sans-serif;
+  line-height:100%;
+  text-decoration:none;  
+  color:black;
+}
+div .intro{
+  margin:50px;
+  margin-top:70px;
+ height:200px;
+  width:900px;
+  display:flex;
+
+}
+div .intro1{
+  width:600px;
+  height:150px;
+  /* font-size:25px; */
+}
+ #profile{
+  margin-top:15px;
+  margin-left:25px;
+  width:150px;
+  border-radius:50%;
+}
+button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left:90px;
+  color:white;
+}
+.post{
+  /* display:flex; */
+  margin-top:25px;
+  width:900px;
+  height:396px;
+  background-color:rgba(106, 146, 171, 0.2);
+}
+.recent{
+  margin-left:50px;
+  display:flex;
+  align-self: center;
+  width:129px;
+  height:50px;
+ font-size:20px;
+}
+.content{ 
+   display:flex; 
+  margin-top:25px;
+  width:900px;
+  height:396px;
+  
+}
+.design{
+  width:418px;
+  height:295px;
+  /* margin-top:35px; */
+  margin-left:80px;
+  margin-right:35px;
+  background-color:white;
+
+}
+  .pixel{
+    width:418px;
+  height:295px;
+  /* margin-top:35px; */
+  margin-left:35px;
+  margin-right:80px;
+  background-color:white;
+  }
+  #feature{
+    height:50px;
+    width:152px;
+    font-size:20px;
+  }
+  .dashboard,.dashboard2,.dashboard3{ 
+    margin-top:15px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-bottom:15px;
+    width:800px;
+    height:180px;
+    display:flex;
+
+  }
+ .doc{
+  background-color:black;
+  color:white; 
+  width:20px;
+  border-radius:3px;
+   margin-right:25px;
+ }
+   .dash{
+    width:246px;
+    height:180px;
+    border-radius:1px;
+   }
+   .dashcontent{
+    
+    width:500px;
+    height:180px;
+    margin-left:25px;
+   }
+   .bottom{
+    display:flex;
+    justify-content:center;
+
+   }
+   .icon { margin-top:50px;
+    width:30px;
+    height:30px;
+    margin-right:15px;
+   }
+   .copy{margin-top:0px;
+    text-align:center;
+   }
